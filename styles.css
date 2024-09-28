@@ -1,0 +1,154 @@
+﻿/* استایل‌دهی عمومی */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* سربرگ */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    header nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+            header nav ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+    .gallary img {
+        width: 200px;
+        height: auto;
+        border: 2px solid #333;
+    }
+body {
+    background: linear-gradient(135deg, #ffa500, #0000ff); /* پس‌زمینه گرادیان */
+}
+button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #003e7e;
+    }
+body {
+    font-family: 'Ray-ExtraBlack', sans-serif;
+}
+.music-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+    .music-item img {
+        margin-top: 10px;
+        width: 200px;
+        height: auto;
+        border-radius: 10px; /* این خط اختیاری است */
+    }
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #f0f0f0; /* تغییر رنگ پس‌زمینه گالری */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.video-item {
+    flex: 1 1 320px; /* هر ویدیو حداقل 320px عرض دارد و در صورت فضا، بزرگ‌تر می‌شود */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* رنگ پس‌زمینه برای ویدیو */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* استایل گالری */
+.gallery {
+    display: grid; /* استفاده از گرید برای چیدمان گالری */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* تعداد ستون‌ها بر اساس فضای موجود */
+    gap: 15px; /* فاصله بین ویدیوها */
+    padding: 20px;
+    background-color: #f0f0f0; /* رنگ پس‌زمینه گالری */
+    border-radius: 10px;
+}
+<!DOCTYPE html >
+<html lang="fa" >
+<head >
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title > گالری ویدیو</title >
+<style >
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.gallary-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    margin: auto; /* Center the container */
+}
+
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center; /* Center items */
+}
+
+.video-wrapper {
+    flex: 1 1 300px; /* Each video takes a minimum width of 300px */
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden; /* Prevent overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
